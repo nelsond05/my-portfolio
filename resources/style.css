@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+  }
+
+  /* Header */
+
+  header h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+
+  header h2 {
+    text-align: left;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+
+  header nav {
+    text-align: center;
+  }
+
+  header nav span { /* Nav links */
+    display: inline-block;
+    background-color: #7e7e7e; /* color for Nav links */
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  header nav span:hover {
+    text-decoration: none;
+    background-color: #393939;
+    color: white;
+    cursor: pointer;
+  }
+
+  header nav span a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Main homepage */
+  main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+  }
+
+  /*Main homepage pets*/
+
+  .pets {
+    margin-top: 300px;
+  }
+
+  .pets figcaption {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
